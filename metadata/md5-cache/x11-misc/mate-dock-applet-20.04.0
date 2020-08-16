@@ -1,0 +1,14 @@
+BDEPEND=>=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure prepare
+DEPEND=>=sys-devel/automake-1.15:1.15
+DESCRIPTION=Application dock for the MATE panel
+EAPI=7
+HOMEPAGE=https://github.com/ubuntu-mate/mate-dock-applet
+IUSE=python_targets_python3_7
+KEYWORDS=*
+LICENSE=GPL-3
+RDEPEND=dev-python/pillow[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/python-xlib[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/pygobject:3[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/pycairo[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/pyxdg[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/distro[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] >=mate-base/mate-panel-1.17.0[introspection] x11-libs/libwnck:3[introspection] x11-libs/bamf
+SLOT=0
+SRC_URI=https://github.com/ubuntu-mate/mate-dock-applet/archive/20.04.0.tar.gz -> mate-dock-applet-20.04.0.tar.gz
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	libtool	f143db5a74ccd9ca28c1234deffede96	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-r1	6ae4f9eb4881e5c5489344ee122e05d0	python-utils-r1	8914c9c220fed51dbc06d700c5ce75bc	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
+_md5_=55131e7fd03dc4dfd995bbc2b388feff
