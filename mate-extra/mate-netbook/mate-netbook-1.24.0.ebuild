@@ -12,7 +12,7 @@ KEYWORDS="*"
 IUSE=""
 
 COMMON_DEPEND="
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=mate-base/mate-panel-1.17.0
 	>=x11-libs/gtk+-3.22:3
 	x11-libs/libfakekey

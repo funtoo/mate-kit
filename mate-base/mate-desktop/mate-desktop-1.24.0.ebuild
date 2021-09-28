@@ -14,7 +14,7 @@ KEYWORDS="*"
 IUSE="X debug +introspection startup-notification"
 
 COMMON_DEPEND="
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=gnome-base/dconf-0.13.4
 	x11-libs/cairo
 	x11-libs/libX11

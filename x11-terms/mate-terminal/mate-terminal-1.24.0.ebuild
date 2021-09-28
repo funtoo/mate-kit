@@ -12,7 +12,7 @@ KEYWORDS="*"
 IUSE=""
 
 COMMON_DEPEND="dev-libs/atk
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=gnome-base/dconf-0.13.4
 	x11-libs/gdk-pixbuf:2
 	x11-libs/libICE

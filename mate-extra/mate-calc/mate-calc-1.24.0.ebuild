@@ -13,7 +13,7 @@ IUSE=""
 
 COMMON_DEPEND="
 	dev-libs/atk
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	dev-libs/libxml2:2
 	>=x11-libs/gtk+-3.22:3
 	x11-libs/pango"

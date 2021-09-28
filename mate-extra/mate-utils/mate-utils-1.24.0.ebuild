@@ -15,7 +15,7 @@ IUSE="X applet debug ipv6 test"
 
 RDEPEND="
 	dev-libs/atk
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=gnome-base/libgtop-2.12:2=
 	>=media-libs/libcanberra-0.4[gtk3]
 	sys-libs/zlib

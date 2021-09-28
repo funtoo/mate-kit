@@ -13,7 +13,7 @@ KEYWORDS="*"
 
 IUSE="X +introspection test"
 
-RDEPEND=">=dev-libs/glib-2.50:2
+RDEPEND=">=dev-libs/glib-2.70.0-r1:2=
 	x11-libs/cairo
 	>=x11-libs/gdk-pixbuf-2.24:=
 	x11-libs/libX11

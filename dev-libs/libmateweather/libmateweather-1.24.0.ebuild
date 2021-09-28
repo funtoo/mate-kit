@@ -13,7 +13,7 @@ KEYWORDS="*"
 
 IUSE="debug"
 
-COMMON_DEPEND=">=dev-libs/glib-2.50:2
+COMMON_DEPEND=">=dev-libs/glib-2.70.0-r1:2=
 	>=dev-libs/libxml2-2.6:2
 	>=net-libs/libsoup-2.34:2.4
 	>=sys-libs/timezone-data-2010k:0

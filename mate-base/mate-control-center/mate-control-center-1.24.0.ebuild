@@ -16,7 +16,7 @@ IUSE="accountsservice appindicator debug"
 RDEPEND="
 	dev-libs/atk
 	>=dev-libs/dbus-glib-0.73
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	dev-libs/libxml2:2
 	>=gnome-base/dconf-0.13.4
 	>=gnome-base/librsvg-2.0:2

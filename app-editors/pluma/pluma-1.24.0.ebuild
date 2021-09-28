@@ -23,7 +23,7 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 RESTRICT="test"
 
 COMMON_DEPEND="dev-libs/atk
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=dev-libs/libpeas-1.2.0[gtk]
 	>=dev-libs/libxml2-2.5:2
 	x11-libs/cairo

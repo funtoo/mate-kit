@@ -16,7 +16,7 @@ IUSE="X debug libnotify policykit pulseaudio rfkill smartcard +sound"
 REQUIRED_USE="pulseaudio? ( sound )"
 
 COMMON_DEPEND=">=dev-libs/dbus-glib-0.74
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=gnome-base/dconf-0.13.4
 	>=mate-base/libmatekbd-1.17.0
 	>=mate-base/mate-desktop-1.21.1

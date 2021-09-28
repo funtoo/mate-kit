@@ -15,7 +15,7 @@ IUSE="+introspection +mate packagekit xmp"
 
 RDEPEND="
 	dev-libs/atk
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=dev-libs/libxml2-2.4.7:2
 	gnome-base/dconf
 	>=gnome-base/gvfs-1.10.1:0[udisks]

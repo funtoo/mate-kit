@@ -18,7 +18,7 @@ KEYWORDS="*"
 
 COMMON_DEPEND="
 	>=dev-libs/dbus-glib-0.76
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	dev-libs/libxslt
 	sys-apps/dbus
 	sys-devel/autoconf-archive

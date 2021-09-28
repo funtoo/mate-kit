@@ -18,7 +18,7 @@ DOC_CONTENTS="
 
 COMMON_DEPEND="
 	>=dev-libs/dbus-glib-0.71:0
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	gnome-base/dconf
 	>=mate-base/libmatekbd-1.17.0
 	>=mate-base/mate-desktop-1.17.0

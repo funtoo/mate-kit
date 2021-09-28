@@ -15,7 +15,7 @@ IUSE="X"
 
 COMMON_DEPEND="
 	>=dev-libs/dbus-glib-0.70
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=mate-base/caja-1.17.1
 	media-libs/libcanberra[gtk3]
 	>=sys-apps/dbus-1.1.1

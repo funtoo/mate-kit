@@ -17,7 +17,7 @@ SLOT="0"
 IUSE="caja magic packagekit"
 
 RDEPEND="
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=dev-libs/json-glib-0.14
 	x11-libs/gdk-pixbuf:2
 	>=x11-libs/gtk+-3.22:3[X]

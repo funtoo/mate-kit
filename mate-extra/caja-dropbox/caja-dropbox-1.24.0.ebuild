@@ -16,7 +16,7 @@ IUSE="debug"
 
 COMMON_DEPEND="
 	dev-libs/atk
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	dev-python/pygobject:3[${PYTHON_USEDEP}]
 	>=mate-base/caja-1.19.1
 	media-libs/fontconfig:1.0

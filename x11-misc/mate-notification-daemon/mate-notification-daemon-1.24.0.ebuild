@@ -14,7 +14,7 @@ KEYWORDS="*"
 IUSE=""
 
 COMMON_DEPEND="dev-libs/atk
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=sys-apps/dbus-1
 	x11-libs/cairo
 	>=x11-libs/gdk-pixbuf-2.22:2

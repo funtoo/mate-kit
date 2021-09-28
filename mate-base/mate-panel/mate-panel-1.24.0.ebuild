@@ -16,7 +16,7 @@ IUSE="X +introspection wayland"
 RDEPEND="
 	dev-libs/atk
 	>=dev-libs/dbus-glib-0.80:0
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=dev-libs/libmateweather-1.17.0
 	dev-libs/libxml2:2
 	>=gnome-base/dconf-0.13.4

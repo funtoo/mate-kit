@@ -15,7 +15,7 @@ IUSE="startup-notification test xinerama"
 
 COMMON_DEPEND="
 	dev-libs/atk
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=gnome-base/libgtop-2:2=
 	media-libs/libcanberra[gtk3]
 	x11-libs/cairo

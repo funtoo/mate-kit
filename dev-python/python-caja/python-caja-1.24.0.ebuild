@@ -16,7 +16,7 @@ IUSE="doc"
 REQUIRED_USE=${PYTHON_REQUIRED_USE}
 
 COMMON_DEPEND="${PYTHON_DEPS}
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	dev-python/pygobject:3[${PYTHON_USEDEP}]
 	>=mate-base/caja-1.17.1[introspection]
 	sys-devel/gettext

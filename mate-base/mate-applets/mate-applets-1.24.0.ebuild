@@ -13,7 +13,7 @@ IUSE="X ipv6 policykit +upower"
 
 COMMON_DEPEND="dev-libs/atk
 	>=dev-libs/dbus-glib-0.74
-	>=dev-libs/glib-2.50:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=dev-libs/libmateweather-1.17.0
 	>=dev-libs/libxml2-2.5:2
 	>=gnome-base/libgtop-2.12.0:2=

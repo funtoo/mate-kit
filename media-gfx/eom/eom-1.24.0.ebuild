@@ -13,7 +13,7 @@ IUSE="X debug exif +introspection jpeg lcms svg tiff xmp"
 
 RDEPEND="
 	dev-libs/atk
-	>=dev-libs/glib-2.52:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	>=dev-libs/libpeas-1.8.0[gtk]
 	>=dev-libs/libxml2-2:2
 	gnome-base/dconf

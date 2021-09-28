@@ -11,7 +11,7 @@ KEYWORDS="*"
 
 IUSE="accountsservice appindicator"
 
-COMMON_DEPEND=">=dev-libs/glib-2.50:2
+COMMON_DEPEND=">=dev-libs/glib-2.70.0-r1:2=
 	>=sys-auth/polkit-0.102
 	x11-libs/gdk-pixbuf:2
 	virtual/libintl:0

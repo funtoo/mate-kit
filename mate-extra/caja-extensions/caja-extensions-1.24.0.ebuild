@@ -14,7 +14,7 @@ KEYWORDS="*"
 SENDTO="cdr gajim +mail pidgin upnp"
 IUSE="image-converter +open-terminal share +wallpaper xattr ${SENDTO}"
 
-COMMON_DEPEND=">=dev-libs/glib-2.50:2
+COMMON_DEPEND=">=dev-libs/glib-2.70.0-r1:2=
 	>=mate-base/caja-1.21.3
 	virtual/libintl
 	x11-libs/gdk-pixbuf:2

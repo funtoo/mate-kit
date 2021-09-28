@@ -14,7 +14,7 @@ IUSE="elogind"
 COMMON_DEPEND="
 	>=dev-cpp/glibmm-2.26:2
 	>=dev-cpp/gtkmm-3.8:3.0
-	>=dev-libs/glib-2.56:2
+	>=dev-libs/glib-2.70.0-r1:2=
 	dev-libs/libsigc++:2
 	>=dev-libs/libxml2-2:2
 	>=gnome-base/libgtop-2.23.1:2=

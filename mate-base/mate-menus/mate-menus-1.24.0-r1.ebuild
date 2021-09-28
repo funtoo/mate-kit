@@ -17,7 +17,7 @@ SLOT="0"
 
 IUSE="debug +introspection"
 
-COMMON_DEPEND=">=dev-libs/glib-2.50:2
+COMMON_DEPEND=">=dev-libs/glib-2.70.0-r1:2=
 	introspection? ( >=dev-libs/gobject-introspection-0.6.7:= )"
 
 RDEPEND="${COMMON_DEPEND}"
