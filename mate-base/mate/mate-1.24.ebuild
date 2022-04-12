@@ -2,6 +2,8 @@
 
 EAPI=7
 
+inherit ego-utils
+
 MATE_BRANCH="$(ver_cut 1-2)"
 MATE_THEMES_V=3
 
@@ -61,6 +63,10 @@ RDEPEND="
 PDEPEND="
 	notification? ( =x11-misc/mate-notification-daemon-${MATE_BRANCH}* )
 	virtual/notification-daemon:0"
+
+pkg_pretend() {
+	ego_mixin_check mate
+}
 
 pkg_postinst() {
 	elog "For installation, usage and troubleshooting details regarding MATE;"
