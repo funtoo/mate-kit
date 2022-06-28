@@ -13,8 +13,6 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="*"
 
-DEPEND=">=sys-devel/automake-1.15:1.15"
-
 RDEPEND="
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/python-xlib[${PYTHON_USEDEP}]
