@@ -42,8 +42,8 @@ src_configure() {
 	if use elogind; then
 		myconf+=(
 			--enable-systemd
-			SYSTEMD_CFLAGS=`pkg-config --cflags "libelogind" 2>/dev/null`
-			SYSTEMD_LIBS=`pkg-config --libs "libelogind" 2>/dev/null`
+			SYSTEMD_CFLAGS="`pkg-config --cflags "libelogind" 2>/dev/null`"
+			SYSTEMD_LIBS="`pkg-config --libs "libelogind" 2>/dev/null`"
 		)
 	else
 		myconf+=( --disable-systemd )
