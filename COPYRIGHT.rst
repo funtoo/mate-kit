@@ -1,7 +1,7 @@
 Licensing
 =========
 
-This file documents the licensing information for mate-kit next/1.24-prime.
+This file documents the licensing information for mate-kit next/1.26-prime.
 
 The contents of this kit are free software; you can redistribute and/or modify
 it under the the terms of GNU General Public License version 2 as published by

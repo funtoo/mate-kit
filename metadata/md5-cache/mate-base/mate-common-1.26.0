@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Common files for development of MATE packages
+EAPI=7
+HOMEPAGE=https://mate-desktop.org
+KEYWORDS=*
+LICENSE=GPL-3+
+SLOT=0
+SRC_URI=https://pub.mate-desktop.org/releases/1.26/mate-common-1.26.0.tar.xz
+_eclasses_=mate-desktop.org	82d190dc209182e42b5543a098d8f83f
+_md5_=158f943b1b96a7266a4f0004ace9c698
