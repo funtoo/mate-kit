@@ -1,0 +1,15 @@
+BDEPEND=>=sys-devel/gettext-0.19.8 virtual/pkgconfig >=app-portage/elt-patches-20170815 app-arch/xz-utils !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=mate-base/mate-common-1.26
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare
+DEPEND=>=dev-libs/dbus-glib-0.74 >=dev-libs/glib-2.50:2 >=gnome-base/dconf-0.13.4 >=mate-base/libmatekbd-1.17.0 >=mate-base/mate-desktop-1.25.0 media-libs/fontconfig:1.0 x11-libs/cairo x11-libs/gdk-pixbuf:2 >=x11-libs/gtk+-3.22:3 x11-libs/libX11 x11-libs/libXi x11-libs/libXext >=x11-libs/libxklavier-5.2 accessibility? ( >=app-accessibility/at-spi2-core-2.36.0 ) libnotify? ( >=x11-libs/libnotify-0.7:0 ) policykit? ( >=dev-libs/dbus-glib-0.71 >=sys-apps/dbus-1.10.0 >=sys-auth/polkit-0.97 ) smartcard? ( >=dev-libs/nss-3.11.2 ) sound? ( >=media-libs/libmatemixer-1.10 media-libs/libcanberra[gtk3] virtual/libintl ) x11-base/xorg-proto dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=MATE Settings Daemon
+EAPI=7
+HOMEPAGE=https://mate-desktop.org
+IUSE=X accessibility debug libnotify policykit pulseaudio rfkill smartcard +sound
+KEYWORDS=*
+LICENSE=GPL-2+ GPL-3+ HPND LGPL-2+ LGPL-2.1+
+RDEPEND=>=dev-libs/dbus-glib-0.74 >=dev-libs/glib-2.50:2 >=gnome-base/dconf-0.13.4 >=mate-base/libmatekbd-1.17.0 >=mate-base/mate-desktop-1.25.0 media-libs/fontconfig:1.0 x11-libs/cairo x11-libs/gdk-pixbuf:2 >=x11-libs/gtk+-3.22:3 x11-libs/libX11 x11-libs/libXi x11-libs/libXext >=x11-libs/libxklavier-5.2 accessibility? ( >=app-accessibility/at-spi2-core-2.36.0 ) libnotify? ( >=x11-libs/libnotify-0.7:0 ) policykit? ( >=dev-libs/dbus-glib-0.71 >=sys-apps/dbus-1.10.0 >=sys-auth/polkit-0.97 ) smartcard? ( >=dev-libs/nss-3.11.2 ) sound? ( >=media-libs/libmatemixer-1.10 media-libs/libcanberra[gtk3] virtual/libintl )
+REQUIRED_USE=pulseaudio? ( sound )
+SLOT=0
+SRC_URI=https://pub.mate-desktop.org/releases/1.26/mate-settings-daemon-1.26.1.tar.xz
+_eclasses_=autotools	5223f703a2e9c194fcda924f8c4b6baf	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	gnome.org	532d56d07b9eace4831aaa817d2b756a	gnome3	fe2aa61bf7cc35d026458d06f875ef53	gnome3-utils	2e056188c1b3f3d82982454b3b2f1810	libtool	f143db5a74ccd9ca28c1234deffede96	ltprune	22f9f14d105434e9c400ccac3bbb64ae	mate	34ebf0fac8b8e76ffc537fcaef88a4dc	mate-desktop.org	82d190dc209182e42b5543a098d8f83f	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=f7ac9669c63ffdded3baa3250688d1b8
